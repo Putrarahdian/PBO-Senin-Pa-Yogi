@@ -23,6 +23,24 @@ public class OperasiString {
         String bulan = hariIni.substring(5,7);
         String tanggal = hariIni.substring(8,10);
 
-        System.out.println(tanggal + "-" + bulan + "-" +tahun)  
+        System.out.println(tanggal + "-" + bulan + "-" +tahun);
     }
+
+        switch(bulan){
+            case "01":
+                System.out.println(tanggal + "Januari" + tahun);
+                break;
+            case "02":
+                System.out.println(tanggal + "Februari" + tahun);
+                break;
+            case "03":
+                System.out.println(tanggal + "Maret" + tahun);
+                break;
+            case "04":
+                System.out.println(tanggal + "April" + tahun);
+                break;
+            case "05":
+                System.out.println(tanggal + "Januari" + tahun);
+                break;
+        }
 }
